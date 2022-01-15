@@ -1,3 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Im, kragleh | Homepage</title>
+    <link rel="stylesheet" href="extra/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&family=Rubik&display=swap" rel="stylesheet">
+</head>
 <body>
-<h1><a href="https://coming-soon.tk/">Coming soon?</a></h1>
-<body>
+    <div class="home" id="home">
+        <div class="center">
+            <p class="subtitle">My name is</p>
+            <p class="title">KRAGLEH</p>
+
+            <script>
+                function discordHover(description) {
+                    console.log(description);
+                    document.getElementById('discord').innerText = description;
+                }
+                function contactHover(description) {
+                    console.log(description);
+                    document.getElementById('contact').innerText = description;
+                }
+                function githubHover(description) {
+                    console.log(description);
+                    document.getElementById('github').innerText = description;
+                }
+            </script>
+
+            <br>
+            <a href="https://discord.app" id="discord" class="discord" onmouseover="discordHover('> Discord <')" onmouseout="discordHover('Discord')">Discord</a>
+            <hr>
+            <a href="https://youtube.com" id="contact" class="contact" onmouseover="contactHover('> Contact <')" onmouseout="contactHover('Contact')">Contact</a>
+            <hr>
+            <a href="https://github.com" id="github" class="github" onmouseover="githubHover('> GitHub <')" onmouseout="githubHover('GitHub')">GitHub</a>
+            <br>
+            <h5>2020 - 2022 © | By kragleh</h5>
+        </div>
+    </div>
+</body>
+</html>
