@@ -126,7 +126,7 @@ body {
     opacity: 0;
     font-weight: 100;
     font-family: 'Rubik', sans-serif;
-    animation: fadeIn ease-in 1s 2s;
+    animation: fadeIn ease-in 1s 3s;
     animation-fill-mode: forwards;
     margin-top: 32px;
 }
