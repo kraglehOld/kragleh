@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+::-webkit-scrollbar {
+	width: 5px;
+}
+
+::-webkit-scrollbar-track {
+	background: gray; 
+}
+
+::-webkit-scrollbar-thumb {
+	background: orange; 
+}
+
+body {
+	background-color: #090909;
+	background-image: url("../images/Texture.png");
+	background-size: 128px 128px;
+}
+
+.footer {
+	height: 10%;
+	text-align: center;
+    vertical-align: middle;
+    background-color: #1c1c1c;
+}
+
+.footer h3 {
+	height: 100%;
+	color: #ff9900;
+	text-align: center;
+    vertical-align: middle;
+	font-family: 'Poppins', sans-serif;
+}

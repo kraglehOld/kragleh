@@ -1,0 +1,20 @@
+.announcement {
+    min-height: 35px;
+    max-width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    line-height: 35px;
+    background-color: black;
+    border-top: 1px solid black;
+    border-right: 1px solid #FF9900;
+    border-left: 1px solid #FF9900;
+    border-bottom: 1px solid #FF9900;
+    color: aliceblue;
+    animation: slide-down 1s forwards;
+    animation-delay: 1s;
+    opacity: 0;
+}
