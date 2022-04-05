@@ -22,11 +22,6 @@
 	<link rel="stylesheet" href="css/hero.css">
 	<link rel="stylesheet" href="css/announcement.css">
 	<link rel="stylesheet" href="css/education.css">
-	<!-- BG Audio Controller -->
-	<script>
-  		var audio = document.getElementById("bga");
-  		audio.volume = 0.2;
-	</script>
 </head>
 <body>
 	<!-- Website Header -->
@@ -78,7 +73,14 @@
 		<h3>Kragleh © 2022</h3>
 	</div>
 	<div class="bga">
-		<audio id="bga" src="https://kragleh.xyz/audio/bbno%24%20%26%20Rich%20Brian%20-%20edamame%20(Official%20Video).mp3" autoplay></audio>
+		<audio autoplay id="bga">
+		 	<source src="https://kragleh.xyz/audio/bbno%24%20%26%20Rich%20Brian%20-%20edamame%20(Official%20Video).mp3">
+		</audio>
+		<!-- BG Audio Controller -->
+		<script>
+  			var audio = document.getElementById("bga");
+  			audio.volume = 0.2;
+		</script>
   	</div>
 </body>
 </html>
